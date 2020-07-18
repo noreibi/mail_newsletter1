@@ -1,0 +1,152 @@
+.mail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fcfcfc;
+}
+
+.mail .content {
+  max-width: 600px;
+  width: 100%;
+  background-color: #2d185b;
+}
+
+.mail .content h1 {
+  text-align: center;
+  font-family: Arial, Verdana;
+  color: #eb7c81;
+}
+
+.mail .content h2 {
+  text-align: center;
+  font-family: Arial, Verdana;
+  color: #eb7c81;
+  font-size: 12px;
+}
+
+.mail .content .inner-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px;
+}
+
+.mail .content .inner-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.mail .content .inner-content .card-info {
+  max-width: 260px;
+  min-height: 280px;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mail .content .inner-content .card-info img {
+  width: 250px;
+  height: 180px;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.mail .content .inner-content .card-info h1,
+.mail .content .inner-content .card-info h2 {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.mail .content .inner-content .card-yellow {
+  background-color: #fee10a;
+}
+
+.mail .content .inner-content .card-yellow img {
+  -webkit-filter: hue-rotate(350deg);
+          filter: hue-rotate(350deg);
+}
+
+.mail .content .inner-content .card-yellow h1 {
+  color: #1f0d17;
+}
+
+.mail .content .inner-content .card-yellow h1 span {
+  color: #eb7c81;
+}
+
+.mail .content .inner-content .card-pink {
+  background-color: #eb7c81;
+}
+
+.mail .content .inner-content .card-pink img {
+  -webkit-filter: hue-rotate(313deg);
+          filter: hue-rotate(313deg);
+}
+
+.mail .content .inner-content .card-pink h1 {
+  color: #1f0d17;
+}
+
+.mail .content .inner-content .card-pink h1 span {
+  color: white;
+}
+
+.mail .content .inner-content .card-white {
+  background-color: white;
+}
+
+.mail .content .inner-content .card-white h1 {
+  color: #eb7c81;
+}
+
+.mail .content .inner-content .card-white h1 span {
+  color: #2d185b;
+}
+
+.mail .content .inner-content .card-purple {
+  background-color: #2d185b;
+}
+
+.mail .content .inner-content .card-purple h1 {
+  color: #fee10a;
+}
+
+.mail .content .inner-content .card-purple h1 span {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: #eb7c81;
+}
+/*# sourceMappingURL=style.css.map */

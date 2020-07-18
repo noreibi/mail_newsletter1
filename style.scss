@@ -1,0 +1,102 @@
+.mail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fcfcfc;
+  .content {
+    max-width: 600px;
+    width: 100%;
+    background-color: #2d185b;
+    //background-image: url('https://naranjabit.com/wp-content/uploads/custom/girasol.jpg');
+    //background-size: cover;
+    //background-repeat: no-repeat;
+    //https://www.naranjabit.com/wp-content/uploads/custom/imagen1.png
+    h1 {
+      text-align: center;
+      font-family: Arial, Verdana;
+      color: #eb7c81;
+    }
+    h2 {
+      text-align: center;
+      font-family: Arial, Verdana;
+      color: #eb7c81;
+      font-size: 12px;
+    }
+    .inner-header {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+    }
+    .inner-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      .card-info {
+        max-width: 260px;
+        min-height: 280px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        img {
+          width: 250px;
+          height: 180px;
+          object-fit: fill;
+        }
+        h1,
+        h2 {
+          font-size: 16px;
+          text-transform: uppercase;
+        }
+      }
+      .card-yellow {
+        background-color: #fee10a;
+        img {
+          filter: hue-rotate(350deg);
+        }
+        h1 {
+          color: #1f0d17;
+          span {
+            color: #eb7c81;
+          }
+        }
+      }
+      .card-pink {
+        background-color: #eb7c81;
+        img {
+          filter: hue-rotate(313deg);
+        }
+        h1 {
+          color: #1f0d17;
+          span {
+            color: white;
+          }
+        }
+      }
+      .card-white {
+        background-color: white;
+        h1 {
+          color: #eb7c81;
+          span {
+            color: #2d185b;
+          }
+        }
+      }
+      .card-purple {
+        background-color: #2d185b;
+        h1 {
+          color: #fee10a;
+          span {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
+a {
+  text-decoration: none;
+  color: #eb7c81;
+}
